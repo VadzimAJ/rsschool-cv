@@ -1,5 +1,3 @@
-**[rsschool-cv](https://github.com/VadzimAJ/rsschool-cv)**
-
 # Vadim Anishchenko
 
 #### Contact information:
