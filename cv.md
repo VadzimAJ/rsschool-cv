@@ -5,22 +5,21 @@
 # Vadim Anishchenko
 
 ---
-
-### Contact information:
+#### Contact information:
 
 **Phone**: +375 (44) 75*-* *-*9
 **E-maile**: vadzim.anishchanka.j@gmail.com
-[LinkedIn](https://www.linkedin.com/in/vadim-anishchenko-bb5824155/)
+**[LinkedIn](https://www.linkedin.com/in/vadim-anishchenko-bb5824155/)**
 
 ---
 
-## Briefly About Myself:
+### Briefly About Myself:
 
-Previously worked at Wargaming as a Community manager. I decided to change my profession and career.
+*Previously worked at Wargaming as a Community manager. I decided to change my profession and career.*
 
 ---
 
-## Skills and Proficiency:
+### Skills and Proficiency:
 
 - HTML5, CSS3
 - Git, GitHub
@@ -29,7 +28,7 @@ Previously worked at Wargaming as a Community manager. I decided to change my pr
 
 ---
 
-### Code example:
+#### Code example:
 
 Starting with the basics.
 
@@ -40,7 +39,15 @@ Starting with the basics.
 
 ---
 
-Courses:
+#### Courses:
 - Started studying at RS Shool
 
 ---
+
+#### Languages:
+
+- **English** - Pre-Intermediate
+- **Russian** - Natine
+- **Belarusian** - Intermediate
+- **Ukrainian** - Intermediate
+
