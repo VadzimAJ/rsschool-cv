@@ -2,7 +2,7 @@
 
 #### Contact information:
 
-- **Phone**: +375 (44) 75\*-\*\*-\*9
+- **Phone**: +375 (44) 75_-__-__9
 - **E-maile**: vadzim.anishchanka.j@gmail.com
 - **[LinkedIn](https://www.linkedin.com/in/vadim-anishchenko-bb5824155/)**
 
