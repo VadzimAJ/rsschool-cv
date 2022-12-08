@@ -1,1 +1,1 @@
-https://github.com/VadzimAJ/rsschool-cv/cv
+https://VadzimAJ.github.io/rsschool-cv/cv
