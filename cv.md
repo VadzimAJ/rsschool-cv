@@ -1,10 +1,7 @@
 **[rsschool-cv](https://github.com/VadzimAJ/rsschool-cv)**
 
----
-
 # Vadim Anishchenko
 
----
 #### Contact information:
 
 - **Phone**: +375 (44) 75*-* *-*9
