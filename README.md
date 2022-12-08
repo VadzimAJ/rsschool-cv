@@ -1,1 +1,1 @@
-# rsschool-cv
+https://VadzimAJ.github.io/rsschool-cv/
