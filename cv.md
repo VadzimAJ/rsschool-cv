@@ -1,4 +1,4 @@
-[rsschool-cv](https://github.com/VadzimAJ/rsschool-cv)
+**[rsschool-cv](https://github.com/VadzimAJ/rsschool-cv)**
 
 ---
 
@@ -7,9 +7,9 @@
 ---
 #### Contact information:
 
-**Phone**: +375 (44) 75*-* *-*9
-**E-maile**: vadzim.anishchanka.j@gmail.com
-**[LinkedIn](https://www.linkedin.com/in/vadim-anishchenko-bb5824155/)**
+- **Phone**: +375 (44) 75*-* *-*9
+- **E-maile**: vadzim.anishchanka.j@gmail.com
+- **[LinkedIn](https://www.linkedin.com/in/vadim-anishchenko-bb5824155/)**
 
 ---
 
