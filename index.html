@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>cv</title>
 </head>
 <body>
+    <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                            <a href="#contact-inf-anchor" class="nav-link">Contact information</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#about-me-anchor" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#skills-anchor" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#code-exaple-anchor" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#courses-anchor" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#languages-anchor" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
+
+    <main class="main">
+        <div class="main-container">
+            <section class="section-profile" id="profile">
+                <img src="./assets/img/my_photo.jfif" alt="my photo" class="section-profile-logo">
+                <div class="section-profile-title">
+                    <h1 class="section-title">Vadim Anishchenko</h1>
+                    <hr class="section-line">
+                    <h3 class="section-subtitle">RS School Student</h3>
+                </div>
+                
+            </section>
+                <hr>
+            <section class="section-contact-inf" id="contact-inf-anchor" itemscope itemtype="http://schema.org/Organization">
+                <h2>Contact information</h2>
+                <ul>
+                    <li>Phone:
+                         <span itemprop="phone">+375 (44) 75_-__-__9</span>
+                    </li>
+                    <li>E-maile:
+                        <span itemprop="emaile">vadzim.anishchanka.j@gmail.com</span>
+                   </li>
+                   <li>
+                    <span itemprop="url"><a href="ttps://www.linkedin.com/in/vadim-anishchenko-bb5824155/">LinkedIn</a></span>
+               </li>
+                </ul>
+            </section>
+            <hr>
+            <section class="about-me" id="about-me-anchor">
+                <h2>Briefly About Myself</h2>
+                <p>Previously worked at Wargaming as a Community manager. I decided to change my profession and career.</p>
+                
+            </section>
+            <hr>
+            <section class="skills" id="skills-anchor">
+                <h2>Skills and Proficiency:</h2>
+                <ul class="section_list">
+                    <li class="section-item">HTML5, CSS3</li>
+                    <li class="section-item">Git, GitHub</li>
+                    <li class="section-item">Jira</li>
+                    <li class="section-item">Confluense</li>
+                </ul>
+            </section>
+            <hr>
+            <section class="code-exaple" id="code-exaple-anchor">
+                <h2>Code example:</h2>
+                
+                <p>Starting with the basics.</p>
+
+                    <code>
+                        <pre>
+    &lt;h1&gt;Hello world!&lt;/h1&gt;
+                        </pre>
+                    </code>
+
+            </section>
+            <hr>
+            <section class="courses" id="courses-anchor">
+                <h2>Courses:</h2>
+                <li>Started studying at RS Shool</li>
+            </section>
+            <hr>
+            <section class="languages" id="languages-anchor">
+                <h2>Languages:</h2>
+                <ul>
+                    <li><strong>English</strong> - Pre-Intermediate</li>
+                    <li><strong>Russian</strong> - Natine</li>
+                    <li><strong>Belarusian</strong> - Intermediate</li>
+                    <li><strong>Ukrainian</strong> - Intermediate</li>
+                </ul>
+            </section>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+            <div class="rs-link-conteiner">  
+                <a href="https://rs.school/js/" class="rss-link">
+                    <img src="./assets/img/rs_school_js.svg" alt="rsschool logo" class="rsschool-logo">
+                </a>
+            </div>
+
+            <div class="github-link-conteiner">
+                © 2022
+                <a href="https://github.com/VadzimAJ" class="github-link">
+                    <img src="./assets/img/git_logo.png" alt="github logo" class="github-logo">
+                </a>
+            </div>
+    </footer>
     
 </body>
 </html>
