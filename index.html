@@ -8,29 +8,44 @@
     <title>cv</title>
 </head>
 <body>
-    <header>
-        <nav class="nav">
-            <a href="#contact_inf_anchor">Contact information</a>
-            <a href="#about_my_anchor">Summary</a>
-            <a href="#skills_anchor">Skills</a>
-            <a href="#code_exaple_anchor">Code</a>
-            <a href="#courses_anchor">Courses</a>
-            <a href="#languages_anchor">Languages</a>
-        </nav>
+    <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                            <a href="#contact-inf-anchor" class="nav-link">Contact information</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#about-me-anchor" class="nav-link">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#skills-anchor" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#code-exaple-anchor" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#courses-anchor" class="nav-link">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                            <a href="#languages-anchor" class="nav-link">Languages</a>
+                    </li>
+                </ul>
+            </nav>
     </header>
 
     <main class="main">
         <div class="main-container">
-            <section class="section section-profile" id="profile">
-                <img src="./assets\img\my_photo.jfif" alt="my photo" class="section_profile_logo">
-                <div class="section_profile_title">
+            <section class="section-profile" id="profile">
+                <img src="./assets/img/my_photo.jfif" alt="my photo" class="section-profile-logo">
+                <div class="section-profile-title">
                     <h1 class="section-title">Vadim Anishchenko</h1>
-                    <h3 class="section-subtitle">RSschool Student</h3>
+                    <hr class="section-line">
+                    <h3 class="section-subtitle">RS School Student</h3>
                 </div>
                 
             </section>
-            
-            <section class="section_contact_inf" id="contact_inf_anchor" itemscope itemtype="http://schema.org/Organization">
+                <hr>
+            <section class="section-contact-inf" id="contact-inf-anchor" itemscope itemtype="http://schema.org/Organization">
                 <h2>Contact information</h2>
                 <ul>
                     <li>Phone:
@@ -44,23 +59,24 @@
                </li>
                 </ul>
             </section>
-            <section class="about_my" id="about_my_anchor">
+            <hr>
+            <section class="about-me" id="about-me-anchor">
                 <h2>Briefly About Myself</h2>
                 <p>Previously worked at Wargaming as a Community manager. I decided to change my profession and career.</p>
                 
             </section>
-
-            <section class="skills" id="skills_anchor">
+            <hr>
+            <section class="skills" id="skills-anchor">
                 <h2>Skills and Proficiency:</h2>
-                <ul class="section-list">
+                <ul class="section_list">
                     <li class="section-item">HTML5, CSS3</li>
                     <li class="section-item">Git, GitHub</li>
                     <li class="section-item">Jira</li>
                     <li class="section-item">Confluense</li>
                 </ul>
             </section>
-
-            <section class="code_exaple" id="code_exaple_anchor">
+            <hr>
+            <section class="code-exaple" id="code-exaple-anchor">
                 <h2>Code example:</h2>
                 
                 <p>Starting with the basics.</p>
@@ -72,13 +88,13 @@
                     </code>
 
             </section>
-
-            <section class="courses" id="courses_anchor">
+            <hr>
+            <section class="courses" id="courses-anchor">
                 <h2>Courses:</h2>
                 <li>Started studying at RS Shool</li>
             </section>
-
-            <section class="languages" id="languages_anchor">
+            <hr>
+            <section class="languages" id="languages-anchor">
                 <h2>Languages:</h2>
                 <ul>
                     <li><strong>English</strong> - Pre-Intermediate</li>
@@ -92,20 +108,20 @@
     </main>
 
     <footer class="footer">
-        <div class="footer-container">
-            <a href="https://github.com/VadzimAJ" class="github_link"></div>
 
-            <div class="rs_link_conteiner">
-                <img src="./assets\img\rs_school_js.svg" alt="rsschool logo">
-                <a href="https://rs.school/js/" class="rss_link"></a>
+            <div class="rs-link-conteiner">  
+                <a href="https://rs.school/js/" class="rss-link">
+                    <img src="./assets/img/rs_school_js.svg" alt="rsschool logo" class="rsschool-logo">
+                </a>
             </div>
 
-            <div class="github_link_conteiner">
+            <div class="github-link-conteiner">
                 © 2022
-                <img src="./assets\img\git_logo.png" alt="github logo">
-                <a href="https://github.com/VadzimAJ" class="github_link"></a>
+                <a href="https://github.com/VadzimAJ" class="github-link">
+                    <img src="./assets/img/git_logo.png" alt="github logo" class="github-logo">
+                </a>
             </div>
-        </div>
     </footer>
+    
 </body>
 </html>
