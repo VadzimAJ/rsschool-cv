@@ -1,11 +1,12 @@
+
 body { 
     width: 1440px;
     margin: auto;
+    background-repeat: green;
 
 }
 h1{
     font-size: 40px;
-    
 }
 
 h2{
@@ -15,8 +16,16 @@ h2{
 section{
     padding: 2px 1000px 30px 50px;
 }
+.header {
+    position: fixed;
+    width: 1440px;
+    top: -16px; /* Фиксированное позиционирование */
+}
+.main {
+margin-top: 50px;
+}
 
-footer{
+footer {
     height:110px;
     margin: auto;
     background-color: rgb(114, 179, 157);
@@ -34,6 +43,7 @@ footer{
     align-items: center;
     list-style: none;
     padding-right: 6px;
+    
 }
 .nav-item {
     margin: 3px;
