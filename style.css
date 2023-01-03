@@ -16,6 +16,7 @@ h2{
 section{
     padding: 2px 1000px 30px 50px;
 }
+
 .header {
     position: fixed;
     width: 1440px;
@@ -26,6 +27,7 @@ margin-top: 50px;
 }
 
 footer {
+    
     height:110px;
     margin: auto;
     background-color: rgb(114, 179, 157);
@@ -36,6 +38,8 @@ footer {
     margin: auto;
     background-color: rgb(114, 179, 157);
     box-shadow: 0 0 7px #666;
+    
+    
 }
 .nav-list {
     display: flex;
@@ -43,6 +47,7 @@ footer {
     align-items: center;
     list-style: none;
     padding-right: 6px;
+    
     
 }
 .nav-item {
@@ -54,6 +59,7 @@ footer {
 
 .nav-link{
     text-decoration: none;
+    color: black
 }
 .section-profile{
     padding: 10px 40px 5px 6px;
