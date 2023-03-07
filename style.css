@@ -1,4 +1,8 @@
 
+html{
+    scroll-behavior: smooth;
+  }
+  
 body { 
     width: 1440px;
     margin: auto;
@@ -20,7 +24,7 @@ section{
 .header {
     position: fixed;
     width: 1440px;
-    top: -16px; /* Фиксированное позиционирование */
+    top: -16px;
 }
 .main {
 margin-top: 50px;
@@ -59,7 +63,7 @@ footer {
 
 .nav-link{
     text-decoration: none;
-    color: black
+    color: black;
 }
 .section-profile{
     padding: 10px 40px 5px 6px;
