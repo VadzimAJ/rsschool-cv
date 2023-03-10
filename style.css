@@ -1,9 +1,15 @@
-
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+  }
+  
 body { 
-    width: 1440px;
-    margin: auto;
-    background-repeat: green;
-
+    max-width: 1440px;
+    margin-top: -16px;
+    margin: 0 auto;
+    background-color: rgb(233, 230, 230);
 }
 h1{
     font-size: 40px;
@@ -16,33 +22,38 @@ h2{
 section{
     padding: 2px 1000px 30px 50px;
 }
+
 .header {
-    position: fixed;
-    width: 1440px;
-    top: -16px; /* Фиксированное позиционирование */
+    display: flex;
+    max-width: 1440px;
+    flex-shrink: 1;
+    margin: 0 auto;
+    justify-content: end;
+    background-color: rgb(114, 179, 157);
+    box-shadow: 0 0 7px #666;
 }
 .main {
-margin-top: 50px;
+    display: flex;
+    margin-top: 50px;
 }
 
-footer {
+.footer {
     height:110px;
     margin: auto;
     background-color: rgb(114, 179, 157);
     box-shadow: 0 0 7px #666;
 }
 .nav{
-    height: 50px;
-    margin: auto;
-    background-color: rgb(114, 179, 157);
-    box-shadow: 0 0 7px #666;
+    display: flex;
+    min-height: 50px;
+    max-width: 1440px;
 }
 .nav-list {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     list-style: none;
     padding-right: 6px;
+    
     
 }
 .nav-item {
@@ -54,24 +65,42 @@ footer {
 
 .nav-link{
     text-decoration: none;
+    flex-wrap: wrap;
+    color: black;
 }
 .section-profile{
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    flex-shrink: 1;
     padding: 10px 40px 5px 6px;
 }
 .section-profile-logo {
-    height: 200px;
-    border-radius: 100px;
+    display: flex;
+    height: 210px;
+    width: 210px;
+    border-radius: 105px;
     border: 5px solid rgba(255, 255, 255, 0);
     box-shadow: 0 0 7px #666;
-    float: right;
-    margin: 25px 30px 12px 12px;
+    order: 2;
+    margin: 45px 0px 80px 40px;
+    flex-shrink: 0;
+}
+.section-profile-logo img{
+    height: 200px;
+    border-radius: 100px;
 }
 .section-profile-title {
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
+    max-width: 1100px;
+    width: 100%;
+    flex-shrink: 1;
+    transition: flex-shrink 0.5s ease-in-out;
 }
 .section-line {
-    width: 1100px;
-    margin-right: auto;
+    width: 100%;
 }
 .section-title {
     margin: 10px 0 30px 20px
@@ -79,17 +108,23 @@ footer {
 .section-subtitle {
     margin: 30px 70px 50px 50px;
 }
-
+.about-me p {
+    font-size: 14px;
+}
 .rsschool-logo{
     height: 70px;
     float: right;
     margin: 12px 30px 12px 12px;
     padding-top: 7px;
 }
+
 .github-link-conteiner{
     padding-left: 20px;
 }
 .github-logo{
     height: 80px;
     padding-top: 15px;
+}
+.home{
+    display: none;
 }
